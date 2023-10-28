@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recipeGenerator{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(237, 212, 111);
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+  
+}
+.first img{
+    padding: 10px;
+    padding-top: 40px;
+    max-width: 250px;
+    max-height: 350px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+.inputRecipe{
+padding: 5px;
+border-radius: 50px;
+}
+
+.recipe{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(213, 213, 213);
+    width: 240px;
+    height: 300px;
+    border-radius: 5px;
+
+}

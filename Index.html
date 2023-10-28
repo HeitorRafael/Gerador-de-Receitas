@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="recipeGenerator">
+
+    <div class="first">
+        <span class="title">GERADOR DE RECEITAS</span>
+
+        <img src="assets/omelete.jpg" alt="Imagem da receita escolhida">
+    </div>
+
+    <div class="second">
+        <form class="inputRecipe" action="Escolha Receita">
+
+            <div class="menuRecipes">
+
+                <input list="recipes" placeholder="Escolha uma de nossas receitas">
+                <datalist id="recipes">
+                    <option value="Mingau de aveia com frutas"/>
+                    <option value="Omelete de queijo"/>
+                    <option value="Bobó de camarão"/>
+                    <option value="Virado a Paulista"/>
+                    <option value="Risoto de camarão"/>
+                    <option value="Medalão de mignon com gorgonzola"/>
+                </datalist>
+
+                <button class="btnGerar">Gerar</button>
+            
+            </div>
+        </form>
+
+        <form class="inputRecipe" action="Receita Desejada">
+        
+            <input type="text"  id="ReceitaDesejada" name="receitaDesejada" placeholder="Digite a Receita desejada">
+
+            <button class="btnGerar">Gerar</button>
+
+        </form>
+
+        <p class="recipe">
+            paragrafo da receita
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
