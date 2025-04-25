@@ -1,0 +1,10 @@
+# Arquivos sensíveis
+.env
+
+# Pastas do Node
+node_modules/
+
+# Outras coisas comuns
+dist/
+build/
+*.log
