@@ -1,0 +1,93 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img, .qrcode img {
+    width: 50px;
+}
+
+/* Anúncio */
+.ad-banner {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+/* Campos de Entrada */
+.input-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+.input-box input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box button {
+    background-color: #ff7f27;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input-box button:hover {
+    background-color: #e86c1c;
+}
+
+/* Botão de Receita Aleatória */
+.random-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin: 15px auto;
+}
+
+.random-box button {
+    background-color: #ff7f27;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.random-box button:hover {
+    background-color: #e86c1c;
+}
